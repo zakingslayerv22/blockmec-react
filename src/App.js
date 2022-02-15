@@ -8,17 +8,23 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
 import Services from './components/Services';
+import React, {useState} from 'react'; 
+import { BrowserRouter as Router, Route, Switch } from  'react-router-dom';
+
 
 function App() {
   return (
     <>
+    <Router>
        <Header />
-       <Home />
-       <About />
-       <Services />
-       <Contact />
+          <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/about" component={About} />
+              <Route path="/services" component={Services} />
+              <Route path="/contact" component={Contact} />
+          </Switch>
        <Footer />
-       
+    </Router>
     </>
   );
 }

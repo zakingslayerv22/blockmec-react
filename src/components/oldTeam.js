@@ -13,7 +13,7 @@ const [teams, setTeams] = useState([
     },
 
     {
-        id: 2,
+        id: 1,
         title: "Tony Stark",
         job: "Iron Man",
         facebook: '',
@@ -21,7 +21,7 @@ const [teams, setTeams] = useState([
         twitter: ''
     },
     {
-        id: 3,
+        id: 1,
         title: "Steve Rogers",
         job: "Captain America",
         facebook: '',
@@ -29,7 +29,7 @@ const [teams, setTeams] = useState([
         twitter: ''
     },
     {
-        id: 4,
+        id: 1,
         title: "Bruce Banner",
         job: "The Hulk",
         facebook: '',
@@ -38,80 +38,13 @@ const [teams, setTeams] = useState([
     }
 ]);
 
-// const newteam = [
-//     {
-//         id: 1,
-//         title: "Barry Allen",
-//         job: "The Flash",
-//         facebook: '',
-//         instagram: '',
-//         twitter: ''
-//     },
-
-//     {
-//         id: 2,
-//         title: "Clark Kent",
-//         job: "The Superman",
-//         facebook: '',
-//         instagram: '',
-//         twitter: ''
-//     },
-//     {
-//         id: 3,
-//         title: "Diana Prince",
-//         job: "Wonder Woman",
-//         facebook: '',
-//         instagram: '',
-//         twitter: ''
-//     },
-//     {
-//         id: 4,
-//         title: "Bruce Wayne",
-//         job: "The Batman",
-//         facebook: '',
-//         instagram: '',
-//         twitter: ''
-//     }
-// ]
-
-
   return (
     <section className="w3l-team-main" id="team">
     <div className="team py-5">
         <div className="container py-lg-5">
             <h3 className="title-big text-center">{description} </h3>
             <div className="row team-row mt-md-5 mt-4">
-                {teams.map(team=>(
-                    <div className="col-lg-3 col-6 team-wrap" key={team.id}>
-                    <div className="team-member text-center">
-                        <div className="team-img">
-                            <img src="assets/images/team1.jpg" alt="" className="radius-image" />
-                            <div className="overlay-team">
-                                <div className="team-details text-center">
-                                    <div className="socials mt-20">
-                                        <a href="#url">
-                                            <span className="fa fa-facebook-f"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span className="fa fa-twitter"></span>
-                                        </a>
-                                        <a href="#url">
-                                            <span className="fa fa-instagram"></span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a href="#url" className="team-title">{team.title}</a>
-                        <p>{team.job}</p>
-                    </div>
-                </div>
-
-                
-                ))}
-
-                    {/* <button className='btn btn-primary' onClick={()=>setTeams(newteam)}>Change Superheroes</button> */}
-                {/* <div className="col-lg-3 col-6 team-wrap">
+                <div className="col-lg-3 col-6 team-wrap">
                     <div className="team-member text-center">
                         <div className="team-img">
                             <img src="assets/images/team1.jpg" alt="" className="radius-image" />
@@ -134,10 +67,10 @@ const [teams, setTeams] = useState([
                         <a href="#url" className="team-title">Luke jacobs</a>
                         <p>web developer</p>
                     </div>
-                </div> */}
+                </div>
                 {/* <!-- end team member --> */}
 
-                {/* <div className="col-lg-3 col-6 team-wrap">
+                <div className="col-lg-3 col-6 team-wrap">
                     <div className="team-member text-center">
                         <div className="team-img">
                             <img src="assets/images/team3.jpg" alt="" className="radius-image" />
@@ -160,10 +93,10 @@ const [teams, setTeams] = useState([
                         <a href="#url" className="team-title">Claire olson</a>
                         <p>android developer</p>
                     </div>
-                </div> */}
+                </div>
                 {/* <!-- end team member --> */}
 
-                {/* <div className="col-lg-3 col-6 team-wrap mt-lg-0 mt-5">
+                <div className="col-lg-3 col-6 team-wrap mt-lg-0 mt-5">
                     <div className="team-member last text-center">
                         <div className="team-img">
                             <img src="assets/images/team2.jpg" alt="" className="radius-image" />
@@ -186,10 +119,10 @@ const [teams, setTeams] = useState([
                         <a href="#url" className="team-title">Phillip hunt</a>
                         <p>Software engineer </p>
                     </div>
-                </div> */}
+                </div>
                 {/* <!-- end team member --> */}
 
-                {/* <div className="col-lg-3 col-6 team-wrap mt-lg-0 mt-5">
+                <div className="col-lg-3 col-6 team-wrap mt-lg-0 mt-5">
                     <div className="team-member last text-center">
                         <div className="team-img">
                             <img src="assets/images/team4.jpg" alt="" className="radius-image" />
@@ -212,7 +145,7 @@ const [teams, setTeams] = useState([
                         <a href="#url" className="team-title">Sara grant</a>
                         <p>Software engineer </p>
                     </div>
-                </div> */}
+                </div>
                 {/* <!-- end team member --> */}
 
             </div>

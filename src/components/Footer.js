@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaAngleUp } from 'react-icons/fa'
 
 function Footer() {
   return (
@@ -58,14 +59,14 @@ function Footer() {
 
       <div className="midd-footer-28 align-center py-4 mt-5">
         <div className="container">
-          <p className="copy-footer-28 text-center"> &copy; 2020 CorpoLink. All Rights Reserved. Design by <a
-              href="https://w3layouts.com/">W3Layouts</a></p>
+          <p className="copy-footer-28 text-center"> &copy; 2022 Blockmec Technology. All Rights Reserved. Design by <a
+              href="/">Blockmec</a></p>
         </div>
       </div>
     </div>
     {/* <!-- move top --> */}
     <button id="movetop" title="Go to top">
-      <span className="fa fa-angle-up"></span>
+      <span className="fa"><FaAngleUp /></span>
     </button>
     
     {/* <!-- /move top --> */}
