@@ -9,7 +9,7 @@ function Header() {
         <Navbar.Brand>
             
          <img src={logo} width="70px" height="70px" /> {' '}
-         Blockmec Technology
+         Blockmec
                   
         </Navbar.Brand>
         <Navbar.Toggle />
@@ -20,10 +20,10 @@ function Header() {
             <NavLink><Link to="/services">Services</Link></NavLink>
             <NavLink><Link to="/contact">Contact Us</Link></NavLink>
         </Nav>
-        <Button variant="outline-success" href="services.html" >Connect Wallet</Button>
+        <Button variant="outline-success" href="/" >Connect Wallet</Button>
         </Navbar.Collapse>
 
-        <div className="mobile-position">
+        {/* <div className="mobile-position">
                   <nav className="navigation">
                       <div className="theme-switch-wrapper">
                           <label className="theme-switch" for="checkbox">
@@ -35,7 +35,7 @@ function Header() {
                           </label>
                       </div>
                   </nav>
-              </div>
+              </div> */}
 
 
     </Navbar>
