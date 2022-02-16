@@ -14,7 +14,14 @@ function Header() {
                   
         </Navbar.Brand>
 
+        {/* Button was here before. Commented it out. */}
 
+        {/* <Button variant="outline-success" href="/" style={{
+
+            hover: 'background-color: purple',
+            margin: '0 auto',
+
+        }}>Connect Wallet</Button> */}
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
         <Nav>
@@ -25,12 +32,14 @@ function Header() {
         </Nav>
         
         </Navbar.Collapse>
+
         <Button variant="outline-success" href="/" style={{
 
                 hover: 'background-color: purple',
                 margin: '0 auto',
 
-            }}>Connect Wallet</Button>
+        }}>Connect Wallet</Button>
+            
         {/* <div className="mobile-position">
                   <nav className="navigation">
                       <div className="theme-switch-wrapper">
