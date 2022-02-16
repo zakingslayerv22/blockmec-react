@@ -3,7 +3,6 @@ import { FaMicrophone, FaRegChartBar, FaChartLine, FaFacebookF, FaTwitter, FaDri
 FaCheck  } 
 from 'react-icons/fa';
 
-// Animation on scroll
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 
@@ -13,7 +12,7 @@ function Home() {
     Aos.init();
   }, [])
   
-// Animation on scroll end
+
   return (
     <>
     <section id="home" className="w3l-banner py-5">
@@ -31,7 +30,7 @@ function Home() {
             </div>
           </div>
           <div className="col-lg-6 col-md-8 col-sm-10 mt-lg-0 mt-5">
-            <div className="img-effect text-lg-center">
+            <div data-aos="slide-left" data-aos-delay="600" data-aos-easein="ease-in-quad" className="img-effect text-lg-center">
               <img src="assets/images/banner.png" alt="banner" className="img-fluid" />
             </div>
           </div>
@@ -49,7 +48,7 @@ function Home() {
               <div className="col-lg-4">
                 <img src="assets/images/mobile.png" alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-8 mt-lg-0 mt-5">
+              <div data-aos="flip-up" data-aos-delay="100" className="col-lg-8 mt-lg-0 mt-5">
                 <div className="fea-gd-vv row">
                   <div className="col-md-6">
                     <div className="float-lt feature-gd color-orange">
@@ -112,21 +111,21 @@ function Home() {
         <span className="title-small text-center mb-2">Achieve online success</span>
         <h3 className="title-big text-center mb-5">Guiding your business</h3>
         <div className="grids-area-hny main-cont-wthree-fea row">
-          <div  className="col-lg-4 col-md-6 grids-feature">
+          <div data-aos="slide-right" data-aos-delay="1000" data-aos-easein="ease-in-quad"  className="col-lg-4 col-md-6 grids-feature">
             <div className="area-box">
               <span className="fa"> <FaMicrophone /> </span>
               <h4><a href="#feature" className="title-head">Mission Statement</a></h4>
               <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci.</p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 grids-feature mt-md-0 mt-4">
+          <div data-aos="slide-up" data-aos-delay="1000" data-aos-easein="ease"  className="col-lg-4 col-md-6 grids-feature mt-md-0 mt-4">
             <div className="area-box box-active">
               <span className="fa"> <FaRegChartBar /> </span>
               <h4><a href="#feature" className="title-head">Situation analysis</a></h4>
               <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci.</p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-4">
+          <div data-aos="slide-right" data-aos-delay="1000" data-aos-easein="ease"  className="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-4">
             <div className="area-box">
               <span className="fa"> <FaChartLine /> </span>
               <h4><a href="#feature" className="title-head">Marketing strategy</a></h4>
@@ -147,9 +146,9 @@ function Home() {
               tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
               cubilia. </p>
             <ul className="cont-4 mt-4">
-              {/* <li><span className="fa" ></span><FaCheck />Pharetra massa init ultricies labore dolor amet</li>
+              <li><span className="fa" ></span><FaCheck />Pharetra massa init ultricies labore dolor amet</li>
               <li><span className="fa" ></span><FaCheck />Dolore magna aliqua init sodales tempor</li>
-              <li><span className="fa" ></span><FaCheck />Incididunt ut labore et, pharetra massa</li> */}
+              <li><span className="fa" ></span><FaCheck />Incididunt ut labore et, pharetra massa</li>
             </ul>
             <a href="about.html" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</a>
           </div>

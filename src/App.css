@@ -1,4 +1,6 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 /*--
 Author: W3layouts
 Author URL: http://w3layouts.com
@@ -11561,3 +11563,35 @@ iframe {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 } */
+
+
+.navbar-nav a {
+  color: #872ef2;
+  font-weight: bold;
+  font-family: "Quicksand";
+}
+
+.nav-link a:hover {
+  border-bottom: 5px solid purple;
+  color: purple;
+}
+
+.btn {
+  color: #872ef2;
+  border-color: #872ef2;
+}
+
+btn:hover{
+  background: purple;
+  color: #fff;
+}
+
+.btn .btn-outline-success a:hover{
+  background-color: purple;
+  color: #fff;
+}
+
+/* .nav-link a{
+  
+} */
+

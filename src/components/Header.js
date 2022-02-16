@@ -1,11 +1,12 @@
-import logo from './assets/logo.svg';
+// import logo2 from './assets/logo.svg';
+import logo from './assets/logo.jpg';
 import React from 'react'
 import { Nav, Navbar, NavLink, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <Navbar sticky="top" expand="sm" collapseOnSelect>
+    <Navbar sticky="top" expand="sm" collapseOnSelect >
         <Navbar.Brand>
             
          <img src={logo} width="70px" height="70px" /> {' '}
@@ -20,7 +21,11 @@ function Header() {
             <NavLink><Link to="/services">Services</Link></NavLink>
             <NavLink><Link to="/contact">Contact Us</Link></NavLink>
         </Nav>
-        <Button variant="outline-success" href="/" >Connect Wallet</Button>
+        <Button variant="outline-success" href="/" style={{
+
+                hover: 'background-color: purple'
+                
+            }}>Connect Wallet</Button>
         </Navbar.Collapse>
 
         {/* <div className="mobile-position">
