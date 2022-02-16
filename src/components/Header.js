@@ -13,6 +13,8 @@ function Header() {
          Blockmec
                   
         </Navbar.Brand>
+
+
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
         <Nav>
@@ -21,13 +23,14 @@ function Header() {
             <NavLink><Link to="/services">Services</Link></NavLink>
             <NavLink><Link to="/contact">Contact Us</Link></NavLink>
         </Nav>
+        
+        </Navbar.Collapse>
         <Button variant="outline-success" href="/" style={{
 
-                hover: 'background-color: purple'
-                
-            }}>Connect Wallet</Button>
-        </Navbar.Collapse>
+                hover: 'background-color: purple',
+                margin: '0 auto',
 
+            }}>Connect Wallet</Button>
         {/* <div className="mobile-position">
                   <nav className="navigation">
                       <div className="theme-switch-wrapper">
