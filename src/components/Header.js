@@ -14,7 +14,7 @@ function Header() {
         }}/>
 
          <img src={logo} width="70px" height="70px" /> {' '}
-         Blockmec
+        
                   
         </Navbar.Brand>
 
