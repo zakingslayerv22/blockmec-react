@@ -8,7 +8,11 @@ function Header() {
   return (
     <Navbar sticky="top" expand="sm" collapseOnSelect >
         <Navbar.Brand>
-            
+        
+        <Navbar.Toggle style={{
+            margin: '10px'
+        }}/>
+
          <img src={logo} width="70px" height="70px" /> {' '}
          Blockmec
                   
@@ -22,7 +26,9 @@ function Header() {
             margin: '0 auto',
 
         }}>Connect Wallet</Button> */}
-        <Navbar.Toggle />
+
+        {/* Navbar toggle was here before. Commented it out. */}
+        {/* <Navbar.Toggle /> */}
         <Navbar.Collapse className="justify-content-end">
         <Nav>
             <NavLink><Link to="/">Home</Link></NavLink>
