@@ -12,12 +12,19 @@ function About() {
                 <div className="content-gd col-lg-6 pr-lg-4">
                   <div className="title-content text-left mb-sm-4 mb-3">
                     <h3 className="title-small">Who We Are</h3>
-                    <h3 className="title-big ">We have 25+ years of industry experience.</h3>
+                    <h3 className="title-big ">We have industry experience.</h3>
                   </div>
-                  <h4 className="mb-sm-4 mb-3">"Our only Aim, Happy clients.</h4>
-                  <p>Lorem ipsum dolor sit amet, suscipit totam animi consequatur saepe Ea consequuntur
-                    .Ea consequuntur illum facere aperiam sequi optio consectetur adipisicing elit fuga, Sed ac fringilla ex.
-                    Nam mauris velit, ac cursus quis, non leo placerat libero non, dapibus leo. </p>
+                  <h4 className="mb-sm-4 mb-3">"Providing Blockchain Solutions.</h4>
+                  <p className="justify">Blockmec enterprise furnishes businesses with a complete perspective 
+                    of blockchain topography and its potential significances. We support you at 
+                    every step of blockchain adoption, from design thinking-driven evaluation to 
+                    assessing blockchain solution from various proportion, creating 
+                    proof-of-concepts and pilot development to complete implementation of solution. 
+                    Our expertise, technology-agnostic approach, purpose-built architectures and 
+                    end-to-end delivery accelerate your enterprise blockchain deployments.
+                    Blockmec technology  is empowering enterprises and businesses with accountability,
+                    immutability, scalability, security, ease of use, and control, radically 
+                    transforming the course of their business </p>
                 </div>
                 <div className="content-gd col-lg-6 pl-lg-4 pl-lg-5 mt-lg-0 mt-md-5 mt-4">
                   <img src="assets/images/about.jpg" alt="about" className="radius-image img-fluid" />

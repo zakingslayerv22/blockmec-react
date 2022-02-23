@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import { FaMicrophone, FaRegChartBar, FaChartLine, FaFacebookF, FaTwitter, FaDribbble, FaGoogle, 
 FaCheck  } 
 from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 // Animation on scroll
 import Aos from 'aos';
@@ -21,15 +22,13 @@ function Home() {
         <div className="row align-items-center">
           <div className="col-lg-6 col-sm-12 mt-lg-0 mt-4">
             <span className="title-small mb-2">Blockchain for All</span>
-            <h3 className="mb-2 title-big mb-4">WE ARE THE BLOCKCHAIN 
-            SUPPORT ENTERPRISE THAT EMPOWERS INDIVIDUALS, 
-            COMPANIES AND DEVELOPERS TO BE 
-            ABLE TO INNOVATE THEIR BUSINESS WITH BLOCKMEC PROTOCOL ON ANY BLOCKCHAIN </h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, excepturi.
-              Distinctio accusantium fugit odit? Fugit ipsam. Sed ac fringilla ex. Nam mauris velit, ac
-              cursus quis, non leo.</p>
+            <h3 className="mb-2 title-big mb-4">The Blockmec Protocol </h3>
+            <p className="justify" >We are the blockchain support enterprise tha empowers individuals, 
+              companies and developers to be able to innovate their business 
+              with Blockmec protocol on any blockchain. </p>
             <div className="mt-sm-5 mt-4">
-              <a className="btn btn-outline-primary btn-style mr-2" href="#url"> See how <span className="fa fa-chevron-right" /></a>
+              {/* <a className="btn btn-outline-primary btn-style mr-2" href="#url"> Read more <span className="fa fa-chevron-right" /></a> */}
+              <Link to="/about" className="btn btn-outline-kingslayer btn-style mr-2">Read more</Link>
               <a className="btn btn-primary btn-style" href="contact.html"> Get a Quote </a>
             </div>
           </div>

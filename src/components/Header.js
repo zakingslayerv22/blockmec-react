@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <Navbar sticky="top" expand="sm" collapseOnSelect >
+    <Navbar sticky="top" expand="sm" collapseOnSelect>
         <Navbar.Brand>
         
         <Navbar.Toggle style={{
@@ -39,7 +39,7 @@ function Header() {
         
         </Navbar.Collapse>
 
-        <Button variant="outline-success" href="/" style={{
+        <Button className="btn-outline-kingslayer" variant="outline-success" href="/" style={{
 
                 hover: 'background-color: purple',
                 margin: '0 auto',
