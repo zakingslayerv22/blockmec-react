@@ -20,8 +20,11 @@ function Home() {
       <div className="container py-lg-5 py-md-4">
         <div className="row align-items-center">
           <div className="col-lg-6 col-sm-12 mt-lg-0 mt-4">
-            <span className="title-small mb-2">Own Business</span>
-            <h3 className="mb-2 title-big mb-4">We help innovators bring their business to life.</h3>
+            <span className="title-small mb-2">Blockchain for All</span>
+            <h3 className="mb-2 title-big mb-4">WE ARE THE BLOCKCHAIN 
+            SUPPORT ENTERPRISE THAT EMPOWERS INDIVIDUALS, 
+            COMPANIES AND DEVELOPERS TO BE 
+            ABLE TO INNOVATE THEIR BUSINESS WITH BLOCKMEC PROTOCOL ON ANY BLOCKCHAIN </h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, excepturi.
               Distinctio accusantium fugit odit? Fugit ipsam. Sed ac fringilla ex. Nam mauris velit, ac
               cursus quis, non leo.</p>
