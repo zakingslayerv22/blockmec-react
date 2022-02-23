@@ -11594,6 +11594,7 @@ btn:hover{
 
 #home{
   margin-top: -50px;
+  background-image: linear-gradient(to bottom right, var(--purple), white);
 }
 
 .justify{
