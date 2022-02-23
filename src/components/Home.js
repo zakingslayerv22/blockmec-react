@@ -42,14 +42,14 @@ function Home() {
         //     value: "#0d47a1",
         //   },
         // },
-        fpsLimit: 800,
+        fpsLimit: 90,
         interactivity: {
           events: {
             onClick: {
               enable: true,
               mode: "push",
             },
-            onHover: {
+            onHsover: {
               enable: true,
               mode: "repulse",
             },
@@ -90,7 +90,7 @@ function Home() {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 6,
+            speed: 3,
             straight: false,
           },
           number: {
