@@ -37,11 +37,11 @@ function Home() {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        // background: {
-        //   color: {
-        //     value: "#0d47a1",
-        //   },
-        // },
+        background: {
+          color: {
+            value: "#0d47a1",
+          },
+        },
         fpsLimit: 90,
         interactivity: {
           events: {
@@ -90,7 +90,7 @@ function Home() {
             enable: true,
             outMode: "bounce",
             random: false,
-            speed: 3,
+            speed: 2,
             straight: false,
           },
           number: {
@@ -118,8 +118,8 @@ function Home() {
       <div className="container py-lg-5 py-md-4">
         <div className="row align-items-center">
           <div className="col-lg-6 col-sm-12 mt-lg-0 mt-4">
-            <span className="title-small mb-2">Blockchain for All</span>
-            <h3 className="mb-2 title-big mb-4">The Blockmec Protocol </h3>
+            <span className="title-small mb-2 justify">Blockchain for All</span>
+            <h3 className="mb-2 title-big mb-4 justify">The Blockmec Protocol </h3>
             <p className="justify" >We are the blockchain support enterprise tha empowers individuals, 
               companies and developers to be able to innovate their business 
               with Blockmec protocol on any blockchain. </p>
@@ -208,28 +208,37 @@ function Home() {
     {/* /bottom-grids*/}
     <section className="w3l-bottom-grids-6 py-5">
       <div className="container py-lg-5 py-md-4">
-        <span className="title-small text-center mb-2">Achieve online success</span>
-        <h3 className="title-big text-center mb-5">Guiding your business</h3>
+        <span className="title-small text-center mb-2">For your blochchain needs</span>
+        <h3 className="title-big text-center mb-5">Blockmec Benefits</h3>
         <div className="grids-area-hny main-cont-wthree-fea row">
           <div  className="col-lg-4 col-md-6 grids-feature">
             <div className="area-box">
               <span className="fa"> <FaMicrophone /> </span>
-              <h4><a href="#feature" className="title-head">Mission Statement</a></h4>
-              <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci.</p>
+              <h4><a href="#feature" className="title-head">New Business Value</a></h4>
+              <p className="justify">From bolstering supply chains to precipitating cross-border 
+                transactions and facilitating secure data management using administered 
+                ledger, blockchain facilitates the  building of more efficient enterprise 
+                prototypes.</p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 grids-feature mt-md-0 mt-4">
             <div className="area-box box-active">
               <span className="fa"> <FaRegChartBar /> </span>
-              <h4><a href="#feature" className="title-head">Situation analysis</a></h4>
-              <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci.</p>
+              <h4><a href="#feature" className="title-head">Reduced Risk </a></h4>
+              <p className="justify">Create transactions using a distributed, 
+                immutable and permissioned ledger. Customize digital 
+                agreements called smart contracts to streamline and automate 
+                processes like payment settlement, ID verification and legal 
+                arbitration.</p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-4">
             <div className="area-box">
               <span className="fa"> <FaChartLine /> </span>
-              <h4><a href="#feature" className="title-head">Marketing strategy</a></h4>
-              <p>Vivamus a ligula quam. Ut blandit eu leo non. Duis sed dolor amet ipsum primis in faucibus orci.</p>
+              <h4><a href="#feature" className="title-head justify">Trusted Ecosystem</a></h4>
+              <p className="justify">Build a network where data is tamper-proof, reliable and more accessible. 
+                The transactions among partners on the network are traceable and verifiable, 
+                building an ecosystem of trust with partners, suppliers and customers</p>
             </div>
           </div>
         </div>
@@ -241,8 +250,8 @@ function Home() {
       <div className="container py-lg-5 py-md-4">
         <div className="row bottom-ab-grids">
           <div className="col-lg-6 bottom-ab-left">
-            <h3 className="title-big mb-4">We create a new standard for businesses</h3>
-            <p className>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem
+            <h3 className="title-big mb-4 justify">We create a new standard for businesses</h3>
+            <p className="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem
               tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
               cubilia. </p>
             <ul className="cont-4 mt-4">
@@ -293,19 +302,19 @@ function Home() {
         <div className="row stats-con">
           <div className="col-md-3 col-6 stats_info counter_grid">
             <p className="counter">86</p>
-            <h3>Apps developed</h3>
+            <h3>Project developed</h3>
           </div>
           <div className="col-md-3 col-6 stats_info counter_grid1">
             <p className="counter">3825</p>
-            <h3>Websites designed</h3>
+            <h3>Web 3.0 deployed</h3>
           </div>
           <div className="col-md-3 col-6 stats_info counter_grid mt-md-0 mt-4">
             <p className="counter">1300</p>
-            <h3>Happy clients</h3>
+            <h3>Active clients</h3>
           </div>
           <div className="col-md-3 col-6 stats_info counter_grid2 mt-md-0 mt-4">
             <p className="counter">45</p>
-            <h3>Web designers</h3>
+            <h3>Experienced developers</h3>
           </div>
         </div>
       </div>
@@ -317,8 +326,8 @@ function Home() {
         <div className="container">
           <div className="row main-cont-wthree-2">
             <div className="col-lg-6 feature-grid-left">
-              <h3 className="title-big mb-md-4 mb-2">Who we Work with</h3>
-              <p className="text-para">Curabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
+              <h3 className="title-big mb-md-4 mb-2 justify">Who we Work with</h3>
+              <p className="text-para justify">Curabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
                 lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit 
                 amet laoreet elit. Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum. </p>
               <a href="#url" className="btn btn-primary btn-style mt-lg-5 mt-4">Discover More</a>
