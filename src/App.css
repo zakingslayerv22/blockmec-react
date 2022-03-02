@@ -11602,7 +11602,7 @@ btn:hover{
 
 #home{
   margin-top: -50px;
-  background-image: linear-gradient(to bottom right, var(--purple), whitesmoke);
+  background-image: linear-gradient(to bottom right, purple, whitesmoke);
 }
 
 .justify{
@@ -11619,12 +11619,12 @@ btn:hover{
 }
 
 .btn-outline-kingslayer {
-  color: var(--purple);
-  border-color: var(--purple); }
+  color: black;
+  border-color: var(--red); }
   .btn-outline-kingslayer:hover {
     color: #fff;
-    background-color: var(--purple);
-    border-color: var(--purple); }
+    background-color: red;
+    border-color: red; }
   .btn-outline-kingslayer:focus, .btn-outline-kingslayer.focus {
     box-shadow: 0 0 0 0.2rem rgba(48, 195, 158, 0.5); }
   .btn-outline-kingslayer.disabled, .btn-outline-kingslayer:disabled {
@@ -11638,6 +11638,33 @@ btn:hover{
     .btn-outline-kingslayer:not(:disabled):not(.disabled):active:focus, .btn-outline-kingslayer:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-kingslayer.dropdown-toggle:focus {
       box-shadow: 0 0 0 0.2rem rgba(48, 195, 158, 0.5); }
+
+
+.btn-primary-kingslayer {
+  color: black;
+  background-color: #ff4040;
+  border-color: #ff4040; }
+  .btn-primary-kingslayer:hover {
+    color: whitesmoke;
+    background-color: red;
+    border-color: red; }
+  .btn-primary-kingslayer:focus, .btn-primary-kingslayer.focus {
+    color: #fff;
+    background-color: #28a485;
+    border-color: #269a7d;
+    box-shadow: 0 0 0 0.2rem rgba(79, 204, 173, 0.5); }
+  .btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: #30c39e;
+    border-color: #30c39e; }
+  .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+  .show > .btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #269a7d;
+    border-color: #239075; }
+    .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+    .show > .btn-primary.dropdown-toggle:focus {
+      box-shadow: 0 0 0 0.2rem rgba(79, 204, 173, 0.5); }
 
 /* .nav-link a{
   

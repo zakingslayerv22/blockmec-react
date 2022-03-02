@@ -125,7 +125,8 @@ function Home() {
               with Blockmec protocol on any blockchain. </p>
             <div className="mt-sm-5 mt-4">
               {/* <a className="btn btn-outline-primary btn-style mr-2" href="#url"> Read more <span className="fa fa-chevron-right" /></a> */}
-              <Link to="/about" className="btn btn-outline-kingslayer btn-style mr-2">Read more</Link>
+              <Link to="/about" className="btn btn-primary-kingslayer btn-style mr-2">Read more</Link>
+              {/* <Link to="/about" className="btn btn-outline-kingslayer btn-style mr-2">Read more</Link> */}
               {/* <a className="btn btn-primary btn-style" href="contact.html"> Get a Quote </a> */}
             </div>
           </div>

@@ -39,7 +39,14 @@ function Header() {
         
         </Navbar.Collapse>
 
-        <Button className="btn-outline-kingslayer" variant="outline-success" href="/" style={{
+        {/* <Button className="btn-primary-kingslayer" variant="outline-success" href="/" style={{
+
+            hover: 'background-color: purple',
+            margin: '0 auto',
+
+            }}>Connect Wallet</Button> */}
+
+        <Button className="btn-primary-kingslayer" variant="" href="/" style={{
 
                 hover: 'background-color: purple',
                 margin: '0 auto',
