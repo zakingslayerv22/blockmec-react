@@ -12,13 +12,14 @@ function Footer() {
             <h6 className="footer-title-28">Contact information</h6>
             <ul>
               <li>
-                <p><strong>Address</strong> : #135 block, Barnard St. Brooklyn, London 10036, UK</p>
+                <p><strong>Address</strong> : 59 Bakasi road Kurudu, Abuja, Nigeria </p>
               </li>
               <li>
-                <p><strong>Phone</strong> : <a href="tel:+(12)234-11-24">+(12)234-11-24</a></p>
+                <p><strong>Phone</strong> : <a href="tel:+2348101111792">+2348101111792</a></p>
               </li>
               <li>
-                <p><strong>Email</strong> : <a href="mailto:example@mail.com">example@mail.com</a></p>
+                <p><strong>Email</strong> : <a href="info@blockmec.org">info@blockmec.org </a></p>
+                <p><strong>Support</strong> : <a href="support@blockmec.org">support@blockmec.org</a></p>
               </li>
             </ul>
           </div>

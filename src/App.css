@@ -10308,6 +10308,14 @@ button.navbar-toggler.collapsed .icon-expand {
 .color-pink {
   border-top: 2px solid #ff4f81; }
 
+.color-cyan {
+  border-top: 2px solid #00FFFF;
+}
+
+.color-gold {
+  border-top: 2px solid #FFD700;
+}
+
 a.text-btn {
   color: var(--heading-color);
   font-weight: 600;
@@ -11599,7 +11607,7 @@ btn:hover{
 
 .justify{
   text-align: justify;
-  color: #F8F0E3;
+  /* color: #F8F0E3; */
 }
 
 .btn-primary{
@@ -11631,3 +11639,7 @@ btn:hover{
   
 } */
 
+.w3l-footer{
+  background-color: red;
+  background: red;
+}

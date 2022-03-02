@@ -37,11 +37,11 @@ function Home() {
       init={particlesInit}
       loaded={particlesLoaded}
       options={{
-        background: {
-          color: {
-            value: "#0d47a1",
-          },
-        },
+        // background: {
+        //   color: {
+        //     value: "#0d47a1",
+        //   },
+        // },
         fpsLimit: 90,
         interactivity: {
           events: {
@@ -126,7 +126,7 @@ function Home() {
             <div className="mt-sm-5 mt-4">
               {/* <a className="btn btn-outline-primary btn-style mr-2" href="#url"> Read more <span className="fa fa-chevron-right" /></a> */}
               <Link to="/about" className="btn btn-outline-kingslayer btn-style mr-2">Read more</Link>
-              <a className="btn btn-primary btn-style" href="contact.html"> Get a Quote </a>
+              {/* <a className="btn btn-primary btn-style" href="contact.html"> Get a Quote </a> */}
             </div>
           </div>
           <div className="col-lg-6 col-md-8 col-sm-10 mt-lg-0 mt-5">
@@ -148,7 +148,7 @@ function Home() {
               <div className="col-lg-4">
                 <img src="assets/images/mobile.png" alt="" className="img-fluid" />
               </div>
-              <div className="col-lg-8 mt-lg-0 mt-5">
+              <div className="col-lg-8 mt-lg-0 mt-5" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <div className="fea-gd-vv row">
                   <div className="col-md-6">
                     <div className="float-lt feature-gd color-orange">
@@ -156,48 +156,75 @@ function Home() {
                         <img src="assets/images/backup.png" alt="" className="img-fluid" />
                       </div>
                       <div className="icon-info">
-                        <h5>Data Backup </h5>
+                        <h5>Usability </h5>
                         <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
                           tempor init sit.</p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 mt-md-0 mt-4">
+                  <div className="col-md-6 mt-md-0 mt-4" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <div className="float-mid feature-gd color-green">
                       <div className="icon">
                         <img src="assets/images/team.png" alt="" className="img-fluid" />
                       </div>
                       <div className="icon-info">
-                        <h5>Dedicated team</h5>
+                        <h5>Governance</h5>
                         <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
                           tempor init sit.</p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 mt-4 pt-md-2">
+                  
+                  <div className="col-md-6 mt-4 pt-md-2" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <div className="float-rt feature-gd color-blue">
                       <div className="icon">
                         <img src="assets/images/tags.png" alt="" className="img-fluid" />
                       </div>
                       <div className="icon-info">
-                        <h5>Quality deliverance</h5>
+                        <h5>MultiChain Bridging</h5>
                         <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
                           tempor init sit.</p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-md-6 mt-4 pt-md-2">
+                  <div className="col-md-6 mt-4 pt-md-2" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <div className="float-lt feature-gd color-pink">
                       <div className="icon">
                         <img src="assets/images/support.png" alt="" className="img-fluid" />
                       </div>
                       <div className="icon-info">
-                        <h5>Excellent support</h5>
+                        <h5>Measurability</h5>
                         <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
                           tempor init sit.</p>
                       </div>
                     </div>
                   </div>
+{/* .......................... */}
+                  <div className="col-md-6 mt-4 pt-md-2" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <div className="float-rt feature-gd color-cyan">
+                      <div className="icon">
+                        <img src="assets/images/team.png" alt="" className="img-fluid" />
+                      </div>
+                      <div className="icon-info">
+                        <h5>Upgradability</h5>
+                        <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
+                          tempor init sit.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-6 mt-4 pt-md-2" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <div className="float-lt feature-gd color-gold">
+                      <div className="icon">
+                        <img src="assets/images/support.png" alt="" className="img-fluid" />
+                      </div>
+                      <div className="icon-info">
+                        <h5>Permission Schema</h5>
+                        <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
+                          tempor init sit.</p>
+                      </div>
+                    </div>
+                  </div>
+{/* ......................... */}
                 </div>
               </div>
             </div>
@@ -207,11 +234,11 @@ function Home() {
     </section>
     {/* /bottom-grids*/}
     <section className="w3l-bottom-grids-6 py-5">
-      <div className="container py-lg-5 py-md-4">
+      <div className="container py-lg-5 py-md-4" >
         <span className="title-small text-center mb-2">For your blochchain needs</span>
         <h3 className="title-big text-center mb-5">Blockmec Benefits</h3>
         <div className="grids-area-hny main-cont-wthree-fea row">
-          <div  className="col-lg-4 col-md-6 grids-feature">
+          <div  className="col-lg-4 col-md-6 grids-feature" data-aos="flip-up" data-aos-anchor-placement="top-center">
             <div className="area-box">
               <span className="fa"> <FaMicrophone /> </span>
               <h4><a href="#feature" className="title-head">New Business Value</a></h4>
@@ -221,7 +248,7 @@ function Home() {
                 prototypes.</p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 grids-feature mt-md-0 mt-4">
+          <div className="col-lg-4 col-md-6 grids-feature mt-md-0 mt-4" data-aos="flip-up" data-aos-anchor-placement="top-center">
             <div className="area-box box-active">
               <span className="fa"> <FaRegChartBar /> </span>
               <h4><a href="#feature" className="title-head">Reduced Risk </a></h4>
@@ -232,7 +259,7 @@ function Home() {
                 arbitration.</p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-4">
+          <div className="col-lg-4 col-md-6 grids-feature mt-lg-0 mt-4" data-aos="flip-up" data-aos-anchor-placement="top-center">
             <div className="area-box">
               <span className="fa"> <FaChartLine /> </span>
               <h4><a href="#feature" className="title-head justify">Trusted Ecosystem</a></h4>
@@ -263,31 +290,31 @@ function Home() {
           </div>
           <div className="col-lg-6 client-grids mt-lg-0 mt-5">
             <div className="clients-grid align-self">
-              <div className="icon">
+              <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <img src="assets/images/slack.png" alt="" className="img-fluid" />
               </div>
-              <div className="icon">
+              <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <img src="assets/images/shopify.png" alt="" className="img-fluid" />
               </div>
-              <div className="icon">
+              <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <img src="assets/images/netflix.png" alt="" className="img-fluid" />
               </div>
-              <div className="icon">
+              <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <img src="assets/images/github.png" alt="" className="img-fluid" />
               </div>
-              <div className="icon">
+              <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <img src="assets/images/chimp.png" alt="" className="img-fluid" />
               </div>
-              <div className="icon">
+              <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <img src="assets/images/disney.png" alt="" className="img-fluid" />
               </div>
-              <div className="icon">
+              <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <img src="assets/images/flipkart.png" alt="" className="img-fluid" />
               </div>
-              <div className="icon">
+              <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <img src="assets/images/woocomerce.png" alt="" className="img-fluid" />
               </div>
-              <div className="icon">
+              <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <img src="assets/images/amazon.png" alt="" className="img-fluid" />
               </div>
             </div>
@@ -297,7 +324,7 @@ function Home() {
     </section>
     {/* //home page block2 grids */}
     {/* stats */}
-    <section className="w3l-stats py-5" id="stats">
+    <section className="w3l-stats py-5" id="stats" data-aos="zoom-in-up" data-aos-anchor-placement="top-center">
       <div className="gallery-inner container py-lg-5 py-md-4">
         <div className="row stats-con">
           <div className="col-md-3 col-6 stats_info counter_grid">
@@ -334,25 +361,25 @@ function Home() {
             </div>
             <div className="col-lg-6 feature-grid-right mt-lg-0 mt-5">
               <div className="call-grids-w3 d-grid">
-                <div className="grids-1 box-wrap">
+                <div className="grids-1 box-wrap" data-aos="slide-up" data-aos-anchor-placement="top-center">
                   <div className="icon">
                     <img src="assets/images/team.png" alt="" className="img-fluid" />
                   </div>
                   <h4><a href="#feature" className="title-head">Start Up Business</a></h4>
                 </div>
-                <div className="grids-1 box-wrap">
+                <div className="grids-1 box-wrap" data-aos="slide-up" data-aos-anchor-placement="top-center">
                   <div className="icon">
                     <img src="assets/images/tags.png" alt="" className="img-fluid" />
                   </div>
                   <h4><a href="#feature" className="title-head">Medium Business</a></h4>
                 </div>
-                <div className="grids-1 box-wrap">
+                <div className="grids-1 box-wrap" data-aos="slide-up" data-aos-anchor-placement="top-center">
                   <div className="icon">
                     <img src="assets/images/backup.png" alt="" className="img-fluid" />
                   </div>
                   <h4><a href="#feature" className="title-head">Enterprise</a></h4>
                 </div>
-                <div className="grids-1 box-wrap">
+                <div className="grids-1 box-wrap" data-aos="slide-up" data-aos-anchor-placement="top-center">
                   <div className="icon">
                     <img src="assets/images/support.png" alt="" className="img-fluid" />
                   </div>
@@ -365,7 +392,7 @@ function Home() {
       </div>
     </section>
     {/* //services page block 2 */}
-    <section className="w3l-clients py-5" id="clients">
+    <section className="w3l-clients py-5" id="clients" data-aos="zoom-in-up" data-aos-anchor-placement="top-center">
       <div className="call-w3">
         <div className="container">
           <div className="company-logos text-center">
@@ -393,7 +420,7 @@ function Home() {
         </div>
       </div>
     </section>
-    <div className="w3l-follow-social py-5">
+    <div className="w3l-follow-social py-5" data-aos="zoom-in-down" data-aos-anchor-placement="top-center">
       <div className="container">
         <div className="social-accounts">
           <div className="align-self">

@@ -8,7 +8,7 @@ function Services() {
     <>
         <Breadcrumbs title="Services" desc="What We Do"/>
         <ServicesBody />
-        <Team description="Meet Our Capable Team"/>
+        {/* <Team description="Meet Our Capable Team"/> */}
       </>
   )
 }
