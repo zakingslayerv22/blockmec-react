@@ -11602,12 +11602,16 @@ btn:hover{
 
 #home{
   margin-top: -50px;
-  background-image: linear-gradient(to bottom right, var(--purple), white);
+  background-image: linear-gradient(to bottom right, var(--purple), whitesmoke);
 }
 
 .justify{
   text-align: justify;
   /* color: #F8F0E3; */
+}
+
+.white-header{
+  color: white;
 }
 
 .btn-primary{
