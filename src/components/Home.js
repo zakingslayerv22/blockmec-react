@@ -120,7 +120,7 @@ function Home() {
           <div className="col-lg-6 col-sm-12 mt-lg-0 mt-4">
             <span className="title-small mb-2 justify white-header">Blockchain for All</span>
             <h3 className="mb-2 title-big mb-4 justify white-header">The Blockmec Protocol </h3>
-            <p className="justify white-header" >We are the blockchain support enterprise tha empowers individuals, 
+            <p className="justify white-header" >We are the blockchain support enterprise that empowers individuals, 
               companies and developers to be able to innovate their business 
               with Blockmec protocol on any blockchain. </p>
             <div className="mt-sm-5 mt-4">
