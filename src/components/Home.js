@@ -134,7 +134,7 @@ function Home() {
             <div className="img-effect text-lg-center">
               {/* <img src="assets/images/banner.png" alt="banner" className="img-fluid" /> */}
 
-              <img src="assets/images/blockmec-images/banner.png" alt="banner" className="img-fluid" />
+              <img src="assets/images/blockmec-images/banner.jpg" alt="banner" className="img-fluid" />
             </div>
           </div>
         </div>
