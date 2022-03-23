@@ -27,7 +27,7 @@ function About() {
                     transforming the course of their business </p>
                 </div>
                 <div className="content-gd col-lg-6 pl-lg-4 pl-lg-5 mt-lg-0 mt-md-5 mt-4">
-                  <img src="assets/images/about.jpg" alt="about" className="radius-image img-fluid" />
+                  <img src="assets/images/blockmec-images/about.jpg" alt="about" className="radius-image img-fluid" />
                 </div>
               </div>
             </div>

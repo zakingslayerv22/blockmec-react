@@ -116,7 +116,7 @@ function ServicesBody() {
             <div className="container pt-lg-5 pt-md-3">
               <div className="cwp4-two row">
                 <div className="cwp4-image col-lg-6 mb-lg-0 mb-md-5 mb-4 pr-lg-5 ">
-                  <a href="#url" className="d-block"><img src="assets/images/strategy.png" className="radius-image img-fluid" alt="" /></a>
+                  <a href="#url" className="d-block"><img src="assets/images/blockmec-images/strategy.jpg" className="radius-image img-fluid" alt="" /></a>
                 </div>
                 <div className="cwp4-text col-lg-6 ">
                   <div className="icon">
@@ -157,7 +157,7 @@ function ServicesBody() {
                   <a href="#url" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</a>
                 </div>
                 <div className="cwp4-image col-lg-6 mt-lg-0 mt-md-5 mt-4 pl-lg-5 order-lg-2 order-1">
-                  <a href="#url" className="d-block"><img src="assets/images/analytics.png" className="radius-image img-fluid" alt="" /></a>
+                  <a href="#url" className="d-block"><img src="assets/images/blockmec-images/analytics.jpg" className="radius-image img-fluid" alt="" /></a>
                 </div>
               </div>
             </div>
