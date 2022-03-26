@@ -14,19 +14,19 @@ function ContactBody() {
                          <div className="contact-info">
                             <img src="assets/images/office.png" alt="" className="img-fluid" />
                              <h4>Address</h4>
-                             <p>#135 block, Barnard St. Brooklyn, London 10036, UK</p>
+                             <p>59 Bakasi road Kurudu, Abuja, Nigeria</p>
                          </div>
                          <div className="contact-info">
                             <img src="assets/images/support.png" alt="" className="img-fluid" />
                              <h4>Phone</h4>
-                             <p><a href="tel:+44 7834 857829">+44 7834 857829</a></p>
+                             <p><a href="tel:+44 7834 857829">+2348101111792</a></p>
                              <p><a href="tel:+44 987 654 321">+44 987 654 321</a></p>
                          </div>
                          <div className="contact-info">
                             <img src="assets/images/envelope.png" alt="" className="img-fluid" />
                              <h4>Mail</h4>
-                             <p><a href="mailto:mail@example.com" className="email">mail@example.com</a></p>
-                             <p><a href="mailto:mail@example.com" className="email">mail@example.com</a></p>
+                             <p><a href="info@blockmec.org" className="email">info@blockmec.org</a></p>
+                             <p><a href="support@blockmec.org" className="email">support@blockmec.org</a></p>
                          </div>
                      </div>
                  </div>

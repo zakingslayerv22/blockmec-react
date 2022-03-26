@@ -87,9 +87,11 @@ function About() {
           </div>
         </section>
         {/* //specification-6*/}
-        <section className="w3l-content-6" id="skills">
+
+        {/* Section Starts here */}
+        {/* <section className="w3l-content-6" id="skills"> */}
           {/* /content-6-section */}
-          <div className="content-6-mian py-5">
+          {/* <div className="content-6-mian py-5">
             <div className="container py-lg-5 py-md-4">
               <div className="content-info-in row">
                 <div className="content-gd col-lg-5">
@@ -130,11 +132,14 @@ function About() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+
+        {/* And ends here */}
+
         {/* //content-6-section */}
         {/* middle */}
         <div className="w3l-middle py-5" style={{
-          background: 'url(assets/images/blockmec-images/about.jpg) no-repeat center' 
+          background: 'url(assets/images/images/about.png) no-repeat center' 
         }}>
           <div className="container py-lg-5 py-md-4">
             <div className="welcome-left">

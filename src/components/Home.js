@@ -160,9 +160,10 @@ function Home() {
                         <img src="assets/images/backup.png" alt="" className="img-fluid" />
                       </div>
                       <div className="icon-info">
-                        <h5>Usability </h5>
-                        <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
-                          tempor init sit.</p>
+                        <h5>Decentralization </h5>
+                        <p> Enterprise blockchain stores data on a 
+                          decentralized network. 
+                          </p>
                       </div>
                     </div>
                   </div>
@@ -172,9 +173,8 @@ function Home() {
                         <img src="assets/images/team.png" alt="" className="img-fluid" />
                       </div>
                       <div className="icon-info">
-                        <h5>Governance</h5>
-                        <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
-                          tempor init sit.</p>
+                        <h5>Privacy</h5>
+                        <p> Parties with authorization gain access to data on the network.</p>
                       </div>
                     </div>
                   </div>
@@ -277,20 +277,28 @@ function Home() {
     </section>
     {/* //bottom-grids*/}
     {/* home page block2 grids */}
+
+    {/* Section Starts here */}
     <section className="w3l-grids-3 py-5">
       <div className="container py-lg-5 py-md-4">
         <div className="row bottom-ab-grids">
           <div className="col-lg-6 bottom-ab-left">
             <h3 className="title-big mb-4 justify">We create a new standard for businesses</h3>
-            <p className="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem
-              tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-              cubilia. </p>
+            <p className="justify">Blockchain is essentially a database technology 
+            with attributes that, taken alone, are not unique to it, but which 
+            collectively produce a technological breakthrough in how digital 
+            information is stored, verified and exchanged. </p>
             <ul className="cont-4 mt-4">
+
+
               {/* <li><span className="fa" ></span><FaCheck />Pharetra massa init ultricies labore dolor amet</li>
               <li><span className="fa" ></span><FaCheck />Dolore magna aliqua init sodales tempor</li>
               <li><span className="fa" ></span><FaCheck />Incididunt ut labore et, pharetra massa</li> */}
+
+
+
             </ul>
-            <a href="about.html" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</a>
+            <Link to="/services"  className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</Link>
           </div>
           <div className="col-lg-6 client-grids mt-lg-0 mt-5">
             <div className="clients-grid align-self">
@@ -326,6 +334,9 @@ function Home() {
         </div>
       </div>
     </section>
+
+    {/* Section ends here */}
+
     {/* //home page block2 grids */}
     {/* stats */}
     <section className="w3l-stats py-5" id="stats" data-aos="zoom-in-up" data-aos-anchor-placement="top-center">

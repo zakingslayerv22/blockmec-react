@@ -96,17 +96,24 @@ function ServicesBody() {
           <div className="container py-lg-5 py-sm-4">
             <div className="row about-text">
               <div className="col-lg-4">
-                <h3 className="title-big">Everything you need to grow your business.</h3>
+                <h3 className="title-big" id="blockchains">Everything you need to build your blockchain.</h3>
+              </div>
+              <div className="col-lg-4 mt-lg-0 mt-3 justify">
+                <p>When the technology hit the scene in 2009 with the 
+                  release of its first application, the Bitcoin cryptocurrency, 
+                  blockchain had a Wild West feel akin to the early days of PC hackers, 
+                  making the technology seem risky and unproven for business use. 
+                  That began to change about five years ago when a burgeoning open 
+                  source community began developing complete enterprise platforms, 
+                  including the programmable blockchain, Ethereum.</p>
               </div>
               <div className="col-lg-4 mt-lg-0 mt-3">
-                <p>Lorem ipsum dolor sit amet consectetur elit. Fugit tempore sapiente, distinctio
-                  perferendis voluptas consequatur quaerat incidunt. Init similique, officia! Dolorum fugiat et aliquam
-                  necessitatibus quas reiciendis, totam volup tatibus deleniti tempore doloribus.</p>
-              </div>
-              <div className="col-lg-4 mt-lg-0 mt-3">
-                <p className>Lorem ipsum dolor sit amet consectetur elit. Doloribus veritatis
-                  incidunt iste totam, consequuntur quaerat minus assumenda commodi sint asperiores. 
-                  Voluptatibus incidunt alias tatibus set amet.</p>
+                <p className="justify">Blockmec has the key which is an accurate picture of 
+                what blockchain really does and doesn't do; the effects of its various 
+                deployment options, especially its network architectures; 
+                and where the heavy black lines are between blockchain and possibly better 
+                alternatives. Blockmec is the only way to get value from blockchain and avoid 
+                wasting money on spectacular failures.</p>
               </div>
             </div>
           </div>
