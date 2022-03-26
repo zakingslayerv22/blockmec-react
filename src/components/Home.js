@@ -134,7 +134,7 @@ function Home() {
             <div className="img-effect text-lg-center">
               {/* <img src="assets/images/banner.png" alt="banner" className="img-fluid" /> */}
 
-              <img src="assets/images/blockmec-images/banner.jpg" alt="banner" className="img-fluid" />
+              <img src="assets/images/blockmec-images/banner.png" alt="banner" className="img-fluid" />
             </div>
           </div>
         </div>
@@ -150,7 +150,7 @@ function Home() {
             <div className="row w3-services-right-grid">
               <div className="col-lg-4">
                 {/* <img src="assets/images/mobile.png" alt="mobile-banner" className="img-fluid" /> */}
-                <img src="assets/images/blockmec-images/mobile.jpg" alt="" className="img-fluid" />
+                <img src="assets/images/blockmec-images/mobile.png" alt="" className="img-fluid" />
               </div>
               <div className="col-lg-8 mt-lg-0 mt-5" data-aos="fade-up" data-aos-anchor-placement="top-center">
                 <div className="fea-gd-vv row">
