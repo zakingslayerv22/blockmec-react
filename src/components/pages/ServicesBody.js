@@ -1,4 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
+
+import { FaMicrophone, FaRegChartBar, FaChartLine, FaFacebookF, FaTwitter, FaDribbble, FaGoogle, 
+  FaCheck  } 
+  from 'react-icons/fa';
+
 
 function ServicesBody() {
   return (
@@ -127,18 +134,24 @@ function ServicesBody() {
                 </div>
                 <div className="cwp4-text col-lg-6 ">
                   <div className="icon">
-                    <span className="fa fa-bar-chart" />
+                    <span className="fa"> <FaRegChartBar /> </span>
                   </div>
-                  <h3 className="title-big my-3">Strategy &amp; research</h3>
-                  <p>Lorem ipsum dolor sit amet sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua ut labore et pharetra.. </p>
+                  {/* <h3 className="title-big my-3">Strategy &amp; research</h3> */}
+
+                  <h3 className="title-big my-3">Manage It All From A Single Blockchain Tool</h3>
+                  <p className="justify">From creating your first project, to managing delivery of a large program, 
+                    Blockmec Technology  has your back. Best methods are baked-in, 
+                    so you can focus on meeting your goals, not worrying about what is falling 
+                    through the cracks. </p>
                   <ul className="cont-4 mt-4">
-                    <li><span className="fa fa-check" />Pharetra massa init ultricies labore dolor amet sed</li>
-                    <li><span className="fa fa-check" />Dolore magna aliqua init sodales tempor</li>
-                    <li><span className="fa fa-check" />Incididunt ut labore et, pharetra massa</li>
-                    <li><span className="fa fa-check" />Vestibulum ante ipsum primis tempor</li>
+                    <li><span className="fa"/> <FaCheck />Track Your Code, Bugs, User Stories, And More</li>
+                    <li><span className="fa"/> <FaCheck />Bring QA To The Forefront Of Your Development</li>
+                    {/* <li><span className="fa"/> <FaCheck />Incididunt ut labore et, pharetra massa</li> */}
+                    {/* <li><span className="fa"/> <FaCheck />Vestibulum ante ipsum primis tempor</li> */}
                   </ul>
-                  <a href="#url" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</a>
+
+                  <Link to="/about" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</Link>
+                  {/* <a href="#url" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</a> */}
                 </div>
               </div>
             </div>
@@ -150,18 +163,25 @@ function ServicesBody() {
               <div className="cwp4-two row">
                 <div className="cwp4-text col-lg-6 order-lg-1 order-2">
                   <div className="icon">
-                    <span className="fa fa-line-chart" />
+                    <span className="fa"> <FaChartLine /> </span>
                   </div>
-                  <h3 className="title-big my-3">Report &amp; analytics</h3>
-                  <p>Lorem ipsum dolor sit amet sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua ut labore et pharetra.. </p>
+                  <h3 className="title-big my-3">Report &amp; Analysis</h3>
+                  <p>Blockmec Enterprise reporting is the creation and distribution of 
+                    reports concerning business performance to key decision makers in an 
+                    organization. This may include reports on metrics on key performance 
+                    indicators or information curated for day-to-day activities. 
+                    Enterprise reporting provides users with a comprehensive view of the 
+                    business and its performance at a high level with metrics, dashboards,
+                    graphs, and other user-friendly business intelligence tools. </p>
                   <ul className="cont-4 mt-4">
-                    <li><span className="fa fa-check" />Pharetra massa init ultricies labore dolor amet sed</li>
-                    <li><span className="fa fa-check" />Dolore magna aliqua init sodales tempor</li>
-                    <li><span className="fa fa-check" />Incididunt ut labore et, pharetra massa</li>
-                    <li><span className="fa fa-check" />Vestibulum ante ipsum primis tempor</li>
+                    <li><span className="fa"/> <FaCheck />Enabling better decision making.</li>
+                    <li><span className="fa"/> <FaCheck />Delivering great customer experiences.</li>
+                    <li><span className="fa"/> <FaCheck />Increasing productivity.</li>
+                    <li><span className="fa"/> <FaCheck />Connecting to innovation.</li>
                   </ul>
-                  <a href="#url" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</a>
+
+                  <Link to="/about" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</Link>
+                  {/* <a href="#url" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</a> */}
                 </div>
                 <div className="cwp4-image col-lg-6 mt-lg-0 mt-md-5 mt-4 pl-lg-5 order-lg-2 order-1">
                   <a href="#url" className="d-block"><img src="assets/images/blockmec-images/analytics.jpg" className="radius-image img-fluid" alt="" /></a>

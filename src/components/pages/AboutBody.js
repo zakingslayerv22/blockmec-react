@@ -32,10 +32,16 @@ function About() {
               </div>
             </div>
           </div></section>
+
+
         {/* //content-6*/}
-        <section className="w3l-specification-6 py-5">
+
+        {/* Section starts here */}
+
+        {/* <section className="w3l-specification-6 py-5"> */}
           {/* /specification-6*/}
-          <div className="specification-6-mian py-lg-5 py-md-4">
+
+          {/* <div className="specification-6-mian py-lg-5 py-md-4">
             <div className="container">
               <div className="align-counter-6-inf-cols row" style={{
 
@@ -85,7 +91,9 @@ function About() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+
+        {/* Section ends here */}
         {/* //specification-6*/}
 
         {/* Section Starts here */}
@@ -139,18 +147,28 @@ function About() {
         {/* //content-6-section */}
         {/* middle */}
         <div className="w3l-middle py-5" style={{
-          background: 'url(assets/images/images/about.png) no-repeat center' 
+          background: 'url(assets/images/about.jpg) no-repeat center' 
         }}>
           <div className="container py-lg-5 py-md-4">
             <div className="welcome-left">
               <h3 className="title-small">Creativity goals</h3>
-              <h3 className="title-big mb-4">We conceive and translate our clients dreams into reality.</h3>
-              <p className="pr-lg-5">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. </p>
-              <div className="buttons mt-md-5 mt-4">
+              <h3 className="title-big mb-4">Blockmec Applications For Businesses</h3>
+              <p className="pr-lg-5 justify">Arguably the most important application 
+              of blockchain for business could be smart contracts, which play a 
+              dual role as foundational components of blockchain infrastructure and 
+              software development and as an application of the technology.</p>
+ 
+              <p className="pr-lg-5 justify"> A smart contract is most easily understood 
+              as a program that uses business logic to execute agreements and 
+              transactions between blockchain participants. A similar term, smart legal 
+              contracts, means something entirely different: Smart legal contracts, 
+              some elements of which are executed in software, typically don't involve blockchain. 
+              Meanwhile, the legal status of blockchain smart contracts is an open question. </p>
+ 
+              {/* <div className="buttons mt-md-5 mt-4">
                 <a href="about.html" className="btn btn-style btn-primary mr-2">Read More</a>
                 <a href="contact.html" className="btn btn-style btn-white ml-2">Get a quote</a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

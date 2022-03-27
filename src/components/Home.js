@@ -185,9 +185,9 @@ function Home() {
                         <img src="assets/images/tags.png" alt="" className="img-fluid" />
                       </div>
                       <div className="icon-info">
-                        <h5>MultiChain Bridging</h5>
-                        <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
-                          tempor init sit.</p>
+                        <h5>Transparency</h5>
+                        <p> A copy of the ledger is available for all the 
+                          members with permission.</p>
                       </div>
                     </div>
                   </div>
@@ -197,9 +197,8 @@ function Home() {
                         <img src="assets/images/support.png" alt="" className="img-fluid" />
                       </div>
                       <div className="icon-info">
-                        <h5>Measurability</h5>
-                        <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
-                          tempor init sit.</p>
+                        <h5>Regulations</h5>
+                        <p> Allows owners to establish a set of rules for their members to adhere to.</p>
                       </div>
                     </div>
                   </div>
@@ -210,9 +209,9 @@ function Home() {
                         <img src="assets/images/team.png" alt="" className="img-fluid" />
                       </div>
                       <div className="icon-info">
-                        <h5>Upgradability</h5>
-                        <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
-                          tempor init sit.</p>
+                        <h5>Partial Immutability</h5>
+                        <p> With the proper permissions, data can be altered 
+                          by owners and stakeholders.</p>
                       </div>
                     </div>
                   </div>
@@ -222,9 +221,9 @@ function Home() {
                         <img src="assets/images/support.png" alt="" className="img-fluid" />
                       </div>
                       <div className="icon-info">
-                        <h5>Permission Schema</h5>
-                        <p> Lorem ipsum dolor sit amet, dolor elit, sed eiusmod
-                          tempor init sit.</p>
+                        <h5>Speed</h5>
+                        <p> It creates a distributed network that reduces transaction 
+                          times to a few minutes.</p>
                       </div>
                     </div>
                   </div>
@@ -298,7 +297,7 @@ function Home() {
 
 
             </ul>
-            <Link to="/services"  className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</Link>
+            <Link to="/services" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</Link>
           </div>
           <div className="col-lg-6 client-grids mt-lg-0 mt-5">
             <div className="clients-grid align-self">
