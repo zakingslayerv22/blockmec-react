@@ -362,7 +362,9 @@ function Home() {
     </section>
     {/* //stats */}
     {/* services page block 2 */}
-    <section className="w3l-features py-5" id="work">
+
+    {/* Section Start */}
+    {/* <section className="w3l-features py-5" id="work">
       <div className="call-w3 py-lg-5 py-md-4">
         <div className="container">
           <div className="row main-cont-wthree-2">
@@ -404,7 +406,9 @@ function Home() {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
+
+    {/* Section end */}
     {/* //services page block 2 */}
     <section className="w3l-clients py-5" id="clients" data-aos="zoom-in-up" data-aos-anchor-placement="top-center">
       <div className="call-w3">
@@ -413,6 +417,7 @@ function Home() {
             <div className="row logos">
               <div className="col-lg-2 col-md-3 col-sm-4 col-6">
                 <img src="assets/images/logo1.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/blockmec-images/logo1.jpg" alt="" className="img-fluid" /> */}
               </div>
               <div className="col-lg-2 col-md-3 col-sm-4 col-6">
                 <img src="assets/images/logo2.png" alt="" className="img-fluid" />

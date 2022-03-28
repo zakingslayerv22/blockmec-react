@@ -147,7 +147,7 @@ function About() {
         {/* //content-6-section */}
         {/* middle */}
         <div className="w3l-middle py-5" style={{
-          background: 'url(assets/images/about.jpg) no-repeat center' 
+          background: 'url(assets/images/images/about.jpg) no-repeat center' 
         }}>
           <div className="container py-lg-5 py-md-4">
             <div className="welcome-left">
