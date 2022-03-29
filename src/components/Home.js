@@ -240,7 +240,7 @@ function Home() {
     {/* /bottom-grids*/}
     <section className="w3l-bottom-grids-6 py-5">
       <div className="container py-lg-5 py-md-4" >
-        <span className="title-small text-center mb-2">For your blochchain needs</span>
+        <span className="title-small text-center mb-2">For your blockchain solutions</span>
         <h3 className="title-big text-center mb-5">Blockmec Benefits</h3>
         <div className="grids-area-hny main-cont-wthree-fea row">
           <div  className="col-lg-4 col-md-6 grids-feature" data-aos="flip-up" data-aos-anchor-placement="top-center">
