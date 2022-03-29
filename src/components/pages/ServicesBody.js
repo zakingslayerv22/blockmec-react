@@ -21,7 +21,7 @@ function ServicesBody() {
                       <img src="assets/images/laptop.png" alt="" className="img-fluid" />
                     </div>
                     <div className="icon-info">
-                      <a href="#url">Web design<br /> and development </a>
+                      <a href="#url">Blockchain<br />Solutions </a>
                     </div>
                   </div>
                 </div>
@@ -31,7 +31,7 @@ function ServicesBody() {
                       <img src="assets/images/mobile1.png" alt="" className="img-fluid" />
                     </div>
                     <div className="icon-info">
-                      <a href="#url">Mobile app<br /> development</a>
+                      <a href="#url">Big<br /> Data</a>
                     </div>
                   </div>
                 </div>
@@ -41,7 +41,7 @@ function ServicesBody() {
                       <img src="assets/images/android.png" alt="" className="img-fluid" />
                     </div>
                     <div className="icon-info">
-                      <a href="#url">Android app<br /> development</a>
+                      <a href="#url">Document<br /> Security</a>
                     </div>
                   </div>
                 </div>
@@ -51,7 +51,7 @@ function ServicesBody() {
                       <img src="assets/images/code.png" alt="" className="img-fluid" />
                     </div>
                     <div className="icon-info">
-                      <a href="#url">Php Web<br /> development</a>
+                      <a href="#url">Document<br /> Verification</a>
                     </div>
                   </div>
                 </div>
@@ -61,7 +61,7 @@ function ServicesBody() {
                       <img src="assets/images/iphone.png" alt="" className="img-fluid" />
                     </div>
                     <div className="icon-info">
-                      <a href="#url">iOS App<br /> development </a>
+                      <a href="#url">QR Code<br /> Authentication </a>
                     </div>
                   </div>
                 </div>
@@ -71,7 +71,8 @@ function ServicesBody() {
                       <img src="assets/images/java.png" alt="" className="img-fluid" />
                     </div>
                     <div className="icon-info">
-                      <a href="#url">JQuery &amp; Java<br /> programming</a>
+                      {/* <a href="#url">JQuery &amp; Java<br /> programming</a> */}
+                      <a href="#url">Artificial <br /> Intelligence</a>
                     </div>
                   </div>
                 </div>
@@ -81,7 +82,7 @@ function ServicesBody() {
                       <img src="assets/images/chain.png" alt="" className="img-fluid" />
                     </div>
                     <div className="icon-info">
-                      <a href="#url">Blockchain<br /> development</a>
+                      <a href="#url">Start <br /> Up</a>
                     </div>
                   </div>
                 </div>
@@ -91,7 +92,7 @@ function ServicesBody() {
                       <img src="assets/images/program.png" alt="" className="img-fluid" />
                     </div>
                     <div className="icon-info">
-                      <a href="#url">.net program<br /> development</a>
+                      <a href="#url">Supply-Chain<br /> Solutions</a>
                     </div>
                   </div>
                 </div>
@@ -150,7 +151,7 @@ function ServicesBody() {
                     {/* <li><span className="fa"/> <FaCheck />Vestibulum ante ipsum primis tempor</li> */}
                   </ul>
 
-                  <Link to="/about" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</Link>
+                  <Link to="/about" className="btn btn-style btn-primary-kingslayer mt-lg-5 mt-4">Read More</Link>
                   {/* <a href="#url" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</a> */}
                 </div>
               </div>
@@ -180,7 +181,7 @@ function ServicesBody() {
                     <li><span className="fa"/> <FaCheck />Connecting to innovation.</li>
                   </ul>
 
-                  <Link to="/about" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</Link>
+                  <Link to="/about" className="btn btn-style btn-primary-kingslayer mt-lg-5 mt-4">Read More</Link>
                   {/* <a href="#url" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</a> */}
                 </div>
                 <div className="cwp4-image col-lg-6 mt-lg-0 mt-md-5 mt-4 pl-lg-5 order-lg-2 order-1">

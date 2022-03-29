@@ -125,9 +125,11 @@ function Home() {
               with Blockmec protocol on any blockchain. </p>
             <div className="mt-sm-5 mt-4">
               {/* <a className="btn btn-outline-primary btn-style mr-2" href="#url"> Read more <span className="fa fa-chevron-right" /></a> */}
-              <Link to="/about" className="btn btn-primary-kingslayer btn-style mr-2">Read more</Link>
+              {/* <Link to="/about" className="btn btn-primary-kingslayer btn-style mr-2">Read more</Link> */}
+              <Link to="/about" className="btn btn-transparent-kingslayer btn-style mr-2">Read more</Link>
               {/* <Link to="/about" className="btn btn-outline-kingslayer btn-style mr-2">Read more</Link> */}
               {/* <a className="btn btn-primary btn-style" href="contact.html"> Get a Quote </a> */}
+              <a className="btn btn-white-kingslayer btn-style" href="contact.html"> Buy $BLC </a>
             </div>
           </div>
           <div className="col-lg-6 col-md-8 col-sm-10 mt-lg-0 mt-5">
@@ -297,36 +299,47 @@ function Home() {
 
 
             </ul>
-            <Link to="/services" className="btn btn-style btn-primary mt-lg-5 mt-4">Read More</Link>
+            <Link to="/services" className="btn btn-style btn-primary-kingslayer mt-lg-5 mt-4">Read More</Link>
           </div>
           <div className="col-lg-6 client-grids mt-lg-0 mt-5">
             <div className="clients-grid align-self">
               <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                <img src="assets/images/slack.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/slack.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/languages/solidity.png" alt="solidity" className="img-fluid" />
               </div>
               <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                <img src="assets/images/shopify.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/shopify.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/languages/reactjs.png" alt="reactjs" className="img-fluid" />
               </div>
               <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                <img src="assets/images/netflix.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/netflix.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/languages/nextjs.png" alt="nextjs" className="img-fluid" />
               </div>
               <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                <img src="assets/images/github.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/github.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/languages/go.png" alt="go" className="img-fluid" />
               </div>
               <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                <img src="assets/images/chimp.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/chimp.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/languages/nodejs.png" alt="nodejs" className="img-fluid" />
               </div>
               <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                <img src="assets/images/disney.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/disney.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/languages/mongodb.png" alt="mongodb" className="img-fluid" />
+
               </div>
               <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                <img src="assets/images/flipkart.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/flipkart.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/languages/python.png" alt="python" className="img-fluid" />
+                
               </div>
               <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                <img src="assets/images/woocomerce.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/woocomerce.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/languages/tailwindcss.png" alt="tailwindcss" className="img-fluid" />
               </div>
               <div className="icon" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                <img src="assets/images/amazon.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/amazon.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/languages/sql.png" alt="sql" className="img-fluid" />
               </div>
             </div>
           </div>
@@ -342,19 +355,19 @@ function Home() {
       <div className="gallery-inner container py-lg-5 py-md-4">
         <div className="row stats-con">
           <div className="col-md-3 col-6 stats_info counter_grid">
-            <p className="counter">86</p>
+            <p className="counter">10</p>
             <h3>Project developed</h3>
           </div>
           <div className="col-md-3 col-6 stats_info counter_grid1">
-            <p className="counter">3825</p>
+            <p className="counter">5</p>
             <h3>Web 3.0 deployed</h3>
           </div>
           <div className="col-md-3 col-6 stats_info counter_grid mt-md-0 mt-4">
-            <p className="counter">1300</p>
+            <p className="counter">10</p>
             <h3>Active clients</h3>
           </div>
           <div className="col-md-3 col-6 stats_info counter_grid2 mt-md-0 mt-4">
-            <p className="counter">45</p>
+            <p className="counter">12</p>
             <h3>Experienced developers</h3>
           </div>
         </div>
@@ -416,23 +429,28 @@ function Home() {
           <div className="company-logos text-center">
             <div className="row logos">
               <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-                <img src="assets/images/logo1.png" alt="" className="img-fluid" />
-                {/* <img src="assets/images/blockmec-images/logo1.jpg" alt="" className="img-fluid" /> */}
+                {/* <img src="assets/images/logo1.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/partners1.png" alt="greenery" className="img-fluid" />
               </div>
               <div className="col-lg-2 col-md-3 col-sm-4 col-6">
-                <img src="assets/images/logo2.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/logo2.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/partners2.png" alt="nuls-blockchain" className="img-fluid" />
               </div>
               <div className="col-lg-2 col-md-3 col-sm-4 col-6 mt-sm-0 mt-4">
-                <img src="assets/images/logo3.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/logo3.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/partners3.png" alt="tatspace" className="img-fluid" />
               </div>
               <div className="col-lg-2 col-md-3 col-sm-4 col-6 mt-md-0 mt-4">
-                <img src="assets/images/logo4.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/logo4.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/partners4.png" alt="fixup-professional" className="img-fluid" />
               </div>
               <div className="col-lg-2 col-md-3 col-sm-4 col-6 mt-lg-0 mt-4">
-                <img src="assets/images/logo5.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/logo5.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/partners5.png" alt="bazcity" className="img-fluid" />
               </div>
               <div className="col-lg-2 col-md-3 col-sm-4 col-6 mt-lg-0 mt-4">
-                <img src="assets/images/logo1.png" alt="" className="img-fluid" />
+                {/* <img src="assets/images/logo1.png" alt="" className="img-fluid" /> */}
+                <img src="assets/images/blockmec-images/partners6.png" alt="bas-network" className="img-fluid" />
               </div>
             </div>
           </div>
