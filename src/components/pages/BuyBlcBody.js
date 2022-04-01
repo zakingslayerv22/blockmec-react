@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaHeadphones, FaLaptop, FaLightbulb, FaPencilAlt } from 'react-icons/fa'
 
-function About() {
+function BuyBlc() {
   return (
     <>
         <section className="w3l-content-6" id="about" >
@@ -11,23 +11,17 @@ function About() {
               <div className="content-info-in row">
                 <div className="content-gd col-lg-6 pr-lg-4">
                   <div className="title-content text-left mb-sm-4 mb-3">
-                    <h3 className="title-small">Who We Are</h3>
-                    <h3 className="title-big ">We have industry experience.</h3>
+                    {/* <h3 className="title-small">Blockmec Coins</h3> */}
+                    <h3 className="title-big ">Buy Blockmec Coins</h3>
                   </div>
-                  <h4 className="mb-sm-4 mb-3">"Providing Blockchain Solutions."</h4>
-                  <p className="justify">Blockmec enterprise furnishes businesses with a complete perspective 
-                    of blockchain topography and its potential significances. We support you at 
-                    every step of blockchain adoption, from design thinking-driven evaluation to 
-                    assessing blockchain solution from various proportion, creating 
-                    proof-of-concepts and pilot development to complete implementation of solution. 
-                    Our expertise, technology-agnostic approach, purpose-built architectures and 
-                    end-to-end delivery accelerate your enterprise blockchain deployments.
-                    Blockmec technology  is empowering enterprises and businesses with accountability,
-                    immutability, scalability, security, ease of use, and control, radically 
-                    transforming the course of their business </p>
+                  {/* <h4 className="mb-sm-4 mb-3">"Providing Blockchain Solutions.</h4> */}
+                  <p className="justify">Blockmec coins is a real gross settlement system currency
+                  exchange and remittance network - a project released under BLM-72. Creation 
+                  and transfer of coin is based on the blockmec network which is an open source 
+                  cryptographic protocol. BLC is the native digital asset on the Blockmec Ecosystem.  </p>
                 </div>
                 <div className="content-gd col-lg-6 pl-lg-4 pl-lg-5 mt-lg-0 mt-md-5 mt-4">
-                  <img src="assets/images/blockmec-images/about.jpg" alt="about" className="radius-image img-fluid" />
+                  <img src="assets/images/blockmec-images/about1.jpg" alt="" className="radius-image img-fluid" />
                 </div>
               </div>
             </div>
@@ -146,7 +140,8 @@ function About() {
 
         {/* //content-6-section */}
         {/* middle */}
-        <div className="w3l-middle py-5" style={{
+
+        {/* <div className="w3l-middle py-5" style={{
           background: 'url(assets/images/images/about.jpg) no-repeat center' 
         }}>
           <div className="container py-lg-5 py-md-4">
@@ -163,17 +158,19 @@ function About() {
               transactions between blockchain participants. A similar term, smart legal 
               contracts, means something entirely different: Smart legal contracts, 
               some elements of which are executed in software, typically don't involve blockchain. 
-              Meanwhile, the legal status of blockchain smart contracts is an open question. </p>
+              Meanwhile, the legal status of blockchain smart contracts is an open question. </p> */}
  
               {/* <div className="buttons mt-md-5 mt-4">
                 <a href="about.html" className="btn btn-style btn-primary mr-2">Read More</a>
                 <a href="contact.html" className="btn btn-style btn-white ml-2">Get a quote</a>
               </div> */}
-            </div>
-          </div>
-        </div>
+
+            {/* </div>
+
+          </div> 
+        </div> */}
       </>
   )
 }
 
-export default About
+export default BuyBlc

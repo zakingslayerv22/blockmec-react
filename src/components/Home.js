@@ -129,7 +129,7 @@ function Home() {
               <Link to="/about" className="btn btn-transparent-kingslayer btn-style mr-2">Read more</Link>
               {/* <Link to="/about" className="btn btn-outline-kingslayer btn-style mr-2">Read more</Link> */}
               {/* <a className="btn btn-primary btn-style" href="contact.html"> Get a Quote </a> */}
-              <a className="btn btn-white-kingslayer btn-style" href="contact.html"> Buy $BLC </a>
+              <Link to="/buyblc" className="btn btn-white-kingslayer btn-style"> Buy $BLC </Link>
             </div>
           </div>
           <div className="col-lg-6 col-md-8 col-sm-10 mt-lg-0 mt-5">
