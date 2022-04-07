@@ -3,20 +3,42 @@ import logo from './assets/logo.jpg';
 import React from 'react'
 import { Nav, Navbar, NavLink, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import {useEffect} from 'react'
+import Particles from "react-tsparticles";
+
+
 
 function Header() {
-  return (
-    <Navbar sticky="top" expand="sm" collapseOnSelect>
-        <Navbar.Brand>
-        
-        <Navbar.Toggle style={{
-            margin: '10px'
-        }}/>
 
-         <img src={logo} width="70px" height="70px" /> {' '}
-        
-                  
-        </Navbar.Brand>
+    // initialize the constants for particlesInit and particlesLoaded
+    const particlesInit = (main) => {
+        console.log(main);
+    
+        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+      };
+    
+      const particlesLoaded = (container) => {
+        console.log(container);
+      };
+
+  return (
+
+
+    <Navbar sticky="top" expand="sm" collapseOnSelect>
+
+ 
+        <Link to="/">
+                    <Navbar.Brand>
+                
+                        <Navbar.Toggle style={{
+                            margin: '10px'
+                        }}/>
+
+                        <img src={logo} width="70px" height="70px" /> {' '}
+                
+                        
+                </Navbar.Brand>
+        </Link>
 
         {/* Button was here before. Commented it out. */}
 
@@ -69,6 +91,7 @@ function Header() {
 
 
     </Navbar>
+    
   )
 }
 

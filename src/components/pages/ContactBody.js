@@ -20,7 +20,7 @@ function ContactBody() {
                             <img src="assets/images/support.png" alt="" className="img-fluid" />
                              <h4>Phone</h4>
                              <p><a href="tel:+44 7834 857829">+2348101111792</a></p>
-                             <p><a href="tel:+44 987 654 321">+44 987 654 321</a></p>
+                             {/* <p><a href="tel:+44 987 654 321">+44 987 654 321</a></p> */}
                          </div>
                          <div className="contact-info">
                             <img src="assets/images/envelope.png" alt="" className="img-fluid" />
@@ -50,13 +50,13 @@ function ContactBody() {
                                  <textarea placeholder="" name="w3lMessage" id="w3lMessage" required=""></textarea>
                              </div>
 
-                             <button type="submit" className="btn btn-primary btn-style">Submit</button>
+                             <button type="submit" className="btn btn-primary-kingslayer btn-style">Submit</button>
 
                          </form>
                      </div>
                      <div className="map">
                          <iframe
-                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001161.424489281!2d-78.01909140705047!3d42.72866436845163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sin!4v1570786994395!5m2!1sen!2sin"
+                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126081.20011612988!2d7.4328061891942365!3d9.060343678314338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e752db90a2ca3%3A0x50581fd00561e8a9!2sBlockmec%20Technology!5e0!3m2!1sen!2sng!4v1649370143593!5m2!1sen!2sng"
                              frameborder="0" allowfullscreen=""></iframe>
                      </div>
                  </div>
