@@ -27,18 +27,18 @@ function Header() {
     <Navbar sticky="top" expand="sm" collapseOnSelect>
 
  
-        <Link to="/">
+        
                     <Navbar.Brand>
                 
                         <Navbar.Toggle style={{
                             margin: '10px'
                         }}/>
 
-                        <img src={logo} width="70px" height="70px" /> {' '}
+                <Link to="/"> <img src={logo} width="70px" height="70px" /> {' '}   </Link>
                 
                         
                 </Navbar.Brand>
-        </Link>
+        
 
         {/* Button was here before. Commented it out. */}
 
