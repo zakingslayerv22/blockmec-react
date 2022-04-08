@@ -51,7 +51,8 @@ const [teams, setTeams] = useState([
                     <div className="team-member text-center">
                         <div className="team-img">
                             {/* <img src="assets/images/team1.jpg" alt="" className="radius-image" /> */}
-                            <img src="assets/images/blockmec-images/team/team1.png" alt="" className="radius-image" />
+                            <img src="assets/images/blockmec-team1.png" alt="" className="radius-image" />
+                            {/* <img src="assets/images/blockmec-images/team/team1.png" alt="" className="radius-image" /> */}
                             <div className="overlay-team">
                                 <div className="team-details text-center">
                                     <div className="socials mt-20">
@@ -78,7 +79,7 @@ const [teams, setTeams] = useState([
                     <div className="team-member text-center">
                         <div className="team-img">
                         {/* <img src="assets/images/team3.jpg" alt="" className="radius-image" /> */}
-                            <img src="assets/images/team2.png" alt="changed" className="radius-image" />
+                            <img src="assets/images/blockmec-team2.png" alt="team2" className="radius-image" />
                             {/* <img src="assets/images/blockmec-images/team/team2.png" alt="team2" className="radius-image" /> */}
                             <div className="overlay-team">
                                 <div className="team-details text-center">
@@ -106,7 +107,8 @@ const [teams, setTeams] = useState([
                     <div className="team-member last text-center">
                         <div className="team-img">
                             {/* <img src="assets/images/team2.jpg" alt="" className="radius-image" /> */}
-                            <img src="assets/images/blockmec-images/team/team3.png" alt="" className="radius-image" />
+                            <img src="assets/images/blockmec-team3.png" alt="team3" className="radius-image" />
+                            {/* <img src="assets/images/blockmec-images/team/team3.png" alt="" className="radius-image" /> */}
                             <div className="overlay-team">
                                 <div className="team-details text-center">
                                     <div className="socials mt-20">
@@ -133,7 +135,8 @@ const [teams, setTeams] = useState([
                     <div className="team-member last text-center">
                         <div className="team-img">
                             {/* <img src="assets/images/team4.jpg" alt="" className="radius-image" /> */}
-                            <img src="assets/images/blockmec-images/team/team4.png" alt="" className="radius-image" />
+                            <img src="assets/images/blockmec-team4.png" alt="team4" className="radius-image" />
+                            {/* <img src="assets/images/blockmec-images/team/team4.png" alt="" className="radius-image" /> */}
                             <div className="overlay-team">
                                 <div className="team-details text-center">
                                     <div className="socials mt-20">
@@ -160,7 +163,8 @@ const [teams, setTeams] = useState([
                     <div className="team-member text-center">
                         <div className="team-img">
                             {/* <img src="assets/images/team1.jpg" alt="" className="radius-image" /> */}
-                            <img src="assets/images/blockmec-images/team/team5.png" alt="" className="radius-image" />
+                            <img src="assets/images/blockmec-team5.png" alt="team5" className="radius-image" />
+                            {/* <img src="assets/images/blockmec-images/team/team5.png" alt="" className="radius-image" /> */}
                             <div className="overlay-team">
                                 <div className="team-details text-center">
                                     <div className="socials mt-20">
@@ -187,7 +191,8 @@ const [teams, setTeams] = useState([
                     <div className="team-member text-center">
                         <div className="team-img">
                             {/* <img src="assets/images/team3.jpg" alt="" className="radius-image" /> */}
-                            <img src="assets/images/blockmec-images/team/team6.png" alt="" className="radius-image" />
+                            <img src="assets/images/blockmec-team6.png" alt="team6" className="radius-image" />
+                            {/* <img src="assets/images/blockmec-images/team/team6.png" alt="" className="radius-image" /> */}
                             <div className="overlay-team">
                                 <div className="team-details text-center">
                                     <div className="socials mt-20">
@@ -213,7 +218,8 @@ const [teams, setTeams] = useState([
                 <div className="col-lg-3 col-6 team-wrap mt-lg-0 mt-5">
                     <div className="team-member last text-center">
                         <div className="team-img">
-                            <img src="assets/images/team22.jpg" alt="incoming" className="radius-image" />
+                            {/* <img src="assets/images/team22.jpg" alt="incoming" className="radius-image" /> */}
+                            <img src="assets/images/blockmec-team7.png" alt="team7" className="radius-image" />
                             {/* <img src="assets/images/blockmec-images/team/team7.png" alt="" className="radius-image" /> */}
                             <div className="overlay-team">
                                 <div className="team-details text-center">
@@ -241,7 +247,8 @@ const [teams, setTeams] = useState([
                     <div className="team-member last text-center">
                         <div className="team-img">
                             {/* <img src="assets/images/team4.jpg" alt="" className="radius-image" /> */}
-                            <img src="assets/images/blockmec-images/team/team8.png" alt="" className="radius-image" />
+                            <img src="assets/images/blockmec-team8.png" alt="team8" className="radius-image" />
+                            {/* <img src="assets/images/blockmec-images/team/team8.png" alt="" className="radius-image" /> */}
                             <div className="overlay-team">
                                 <div className="team-details text-center">
                                     <div className="socials mt-20">
