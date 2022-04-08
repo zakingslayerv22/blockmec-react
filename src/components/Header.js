@@ -1,5 +1,5 @@
 // import logo2 from './assets/logo.svg';
-import logo from './assets/logo.jpg';
+import logo from './assets/logo.png';
 import React from 'react'
 import { Nav, Navbar, NavLink, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
@@ -34,7 +34,9 @@ function Header() {
                             margin: '10px'
                         }}/>
 
-                <Link to="/"> <img src={logo} width="70px" height="70px" /> {' '}   </Link>
+                {/* <Link to="/"> <img src={logo} width="70px" height="70px" /> {' '}   </Link> */}
+
+                <Link to="/"> <img src={logo} width="350px" height="70px" /> {' '}   </Link>
                 
                         
                 </Navbar.Brand>

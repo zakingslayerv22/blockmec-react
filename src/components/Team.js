@@ -1,6 +1,6 @@
 import React, {useState} from 'react'; 
 
-import { FaMicrophone, FaRegChartBar, FaChartLine, FaFacebookF, FaTwitter, FaInstagram, FaGoogle, 
+import { FaMicrophone, FaRegChartBar, FaChartLine, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn, 
     FaCheck  }  from 'react-icons/fa';
 
 function Team({description}) {
@@ -57,14 +57,17 @@ const [teams, setTeams] = useState([
                                 <div className="team-details text-center">
                                     <div className="socials mt-20">
                                         <a href="#url">
-                                            <span className="facebook-f"><FaFacebookF /></span>
+                                        <span className="facebook-f"><FaTwitter /></span>
                                         </a>
+                                        {/* <a href="#url">
+                                            <span className="twitter"></span>
+                                        </a> */}
                                         <a href="#url">
-                                            <span className="twitter"><FaTwitter /></span>
+                                            <span className="instagram"><FaLinkedinIn /></span>
                                         </a>
-                                        <a href="#url">
+                                        {/* <a href="#url">
                                             <span className="instagram"><FaInstagram /></span>
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
@@ -85,14 +88,17 @@ const [teams, setTeams] = useState([
                                 <div className="team-details text-center">
                                     <div className="socials mt-20">
                                     <a href="#url">
-                                            <span className="facebook-f"><FaFacebookF /></span>
+                                            <span className="facebook-f"><FaTwitter /></span>
                                         </a>
+                                        {/* <a href="#url">
+                                            <span className="twitter"></span>
+                                        </a> */}
                                         <a href="#url">
-                                            <span className="twitter"><FaTwitter /></span>
+                                            <span className="instagram"><FaLinkedinIn /></span>
                                         </a>
-                                        <a href="#url">
+                                        {/* <a href="#url">
                                             <span className="instagram"><FaInstagram /></span>
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
@@ -113,14 +119,17 @@ const [teams, setTeams] = useState([
                                 <div className="team-details text-center">
                                     <div className="socials mt-20">
                                     <a href="#url">
-                                            <span className="facebook-f"><FaFacebookF /></span>
+                                    <span className="facebook-f"><FaTwitter /></span>
                                         </a>
+                                        {/* <a href="#url">
+                                            <span className="twitter"></span>
+                                        </a> */}
                                         <a href="#url">
-                                            <span className="twitter"><FaTwitter /></span>
+                                            <span className="instagram"><FaLinkedinIn /></span>
                                         </a>
-                                        <a href="#url">
+                                        {/* <a href="#url">
                                             <span className="instagram"><FaInstagram /></span>
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
@@ -141,14 +150,17 @@ const [teams, setTeams] = useState([
                                 <div className="team-details text-center">
                                     <div className="socials mt-20">
                                     <a href="#url">
-                                            <span className="facebook-f"><FaFacebookF /></span>
+                                            <span className="facebook-f"><FaTwitter /></span>
                                         </a>
+                                        {/* <a href="#url">
+                                            <span className="twitter"></span>
+                                        </a> */}
                                         <a href="#url">
-                                            <span className="twitter"><FaTwitter /></span>
+                                            <span className="instagram"><FaLinkedinIn /></span>
                                         </a>
-                                        <a href="#url">
+                                        {/* <a href="#url">
                                             <span className="instagram"><FaInstagram /></span>
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
@@ -167,16 +179,19 @@ const [teams, setTeams] = useState([
                             {/* <img src="assets/images/blockmec-images/team/team5.png" alt="" className="radius-image" /> */}
                             <div className="overlay-team">
                                 <div className="team-details text-center">
-                                    <div className="socials mt-20">
-                                        <a href="#url">
-                                            <span className="facebook-f"><FaFacebookF /></span>
+                                <div className="socials mt-20">
+                                    <a href="#url">
+                                            <span className="facebook-f"><FaTwitter /></span>
                                         </a>
+                                        {/* <a href="#url">
+                                            <span className="twitter"></span>
+                                        </a> */}
                                         <a href="#url">
-                                            <span className="twitter"><FaTwitter /></span>
+                                            <span className="instagram"><FaLinkedinIn /></span>
                                         </a>
-                                        <a href="#url">
+                                        {/* <a href="#url">
                                             <span className="instagram"><FaInstagram /></span>
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
@@ -195,16 +210,19 @@ const [teams, setTeams] = useState([
                             {/* <img src="assets/images/blockmec-images/team/team6.png" alt="" className="radius-image" /> */}
                             <div className="overlay-team">
                                 <div className="team-details text-center">
-                                    <div className="socials mt-20">
+                                <div className="socials mt-20">
                                     <a href="#url">
-                                            <span className="facebook-f"><FaFacebookF /></span>
+                                            <span className="facebook-f"><FaTwitter /></span>
                                         </a>
+                                        {/* <a href="#url">
+                                            <span className="twitter"></span>
+                                        </a> */}
                                         <a href="#url">
-                                            <span className="twitter"><FaTwitter /></span>
+                                            <span className="instagram"><FaLinkedinIn /></span>
                                         </a>
-                                        <a href="#url">
+                                        {/* <a href="#url">
                                             <span className="instagram"><FaInstagram /></span>
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
@@ -219,20 +237,23 @@ const [teams, setTeams] = useState([
                     <div className="team-member last text-center">
                         <div className="team-img">
                             {/* <img src="assets/images/team22.jpg" alt="incoming" className="radius-image" /> */}
-                            <img src="assets/images/blockmec-team7.png" alt="team7" className="radius-image" />
+                            <img src="assets/images/team3.png" alt="team7" className="radius-image" />
                             {/* <img src="assets/images/blockmec-images/team/team7.png" alt="" className="radius-image" /> */}
                             <div className="overlay-team">
                                 <div className="team-details text-center">
-                                    <div className="socials mt-20">
+                                <div className="socials mt-20">
                                     <a href="#url">
-                                            <span className="facebook-f"><FaFacebookF /></span>
+                                            <span className="facebook-f"><FaTwitter /></span>
                                         </a>
+                                        {/* <a href="#url">
+                                            <span className="twitter"></span>
+                                        </a> */}
                                         <a href="#url">
-                                            <span className="twitter"><FaTwitter /></span>
+                                            <span className="instagram"><FaLinkedinIn /></span>
                                         </a>
-                                        <a href="#url">
+                                        {/* <a href="#url">
                                             <span className="instagram"><FaInstagram /></span>
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
@@ -251,16 +272,19 @@ const [teams, setTeams] = useState([
                             {/* <img src="assets/images/blockmec-images/team/team8.png" alt="" className="radius-image" /> */}
                             <div className="overlay-team">
                                 <div className="team-details text-center">
-                                    <div className="socials mt-20">
+                                <div className="socials mt-20">
                                     <a href="#url">
-                                            <span className="facebook-f"><FaFacebookF /></span>
+                                            <span className="facebook-f"><FaTwitter /></span>
                                         </a>
+                                        {/* <a href="#url">
+                                            <span className="twitter"></span>
+                                        </a> */}
                                         <a href="#url">
-                                            <span className="twitter"><FaTwitter /></span>
+                                            <span className="instagram"><FaLinkedinIn /></span>
                                         </a>
-                                        <a href="#url">
+                                        {/* <a href="#url">
                                             <span className="instagram"><FaInstagram /></span>
-                                        </a>
+                                        </a> */}
                                     </div>
                                 </div>
                             </div>
