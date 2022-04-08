@@ -237,7 +237,7 @@ const [teams, setTeams] = useState([
                     <div className="team-member last text-center">
                         <div className="team-img">
                             {/* <img src="assets/images/team22.jpg" alt="incoming" className="radius-image" /> */}
-                            <img src="assets/images/team3.png" alt="team7" className="radius-image" />
+                            <img src="assets/images/blockmec-team7.png" alt="team7" className="radius-image" />
                             {/* <img src="assets/images/blockmec-images/team/team7.png" alt="" className="radius-image" /> */}
                             <div className="overlay-team">
                                 <div className="team-details text-center">

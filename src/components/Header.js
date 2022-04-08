@@ -36,7 +36,7 @@ function Header() {
 
                 {/* <Link to="/"> <img src={logo} width="70px" height="70px" /> {' '}   </Link> */}
 
-                <Link to="/"> <img src={logo} width="350px" height="70px" /> {' '}   </Link>
+                <Link to="/"> <img src={logo}  /> {' '}   </Link>
                 
                         
                 </Navbar.Brand>
