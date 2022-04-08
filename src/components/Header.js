@@ -70,13 +70,18 @@ function Header() {
 
             }}>Connect Wallet</Button> */}
 
-        <Button className="btn-primary-kingslayer" variant="" href="/" style={{
+
+            {/* The FINAL CONNECT BUTTON START COMMENTED OUT */}
+
+        {/* <Button className="btn-primary-kingslayer" variant="" href="/" style={{
 
                 hover: 'background-color: purple',
                 margin: '0 auto',
 
-        }}>Connect Wallet</Button>
+        }}>Connect Wallet</Button> */}
             
+            {/* The FINAL CONNECT BUTTON END */}
+
         {/* <div className="mobile-position">
                   <nav className="navigation">
                       <div className="theme-switch-wrapper">
