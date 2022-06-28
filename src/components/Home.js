@@ -4,6 +4,7 @@ FaCheck  }
 from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import Particles from "react-tsparticles";
+import Pdf from '../components/assets/pdf/Blockmec_corepaper.pdf';
 
 // Animation on scroll
 import Aos from 'aos';
@@ -126,7 +127,8 @@ function Home() {
             <div className="mt-sm-5 mt-4">
               {/* <a className="btn btn-outline-primary btn-style mr-2" href="#url"> Read more <span className="fa fa-chevron-right" /></a> */}
               {/* <Link to="/about" className="btn btn-primary-kingslayer btn-style mr-2">Read more</Link> */}
-              <Link to="/about" className="btn btn-transparent-kingslayer btn-style mr-2">Read more</Link>
+              {/* <Link to="/about" className="btn btn-transparent-kingslayer btn-style mr-2">Read more</Link> */}
+              <a href={Pdf} target="_blank" className="btn btn-transparent-kingslayer btn-style mr-2" rel="noreferrer">View Whitepaper</a>
               {/* <Link to="/about" className="btn btn-outline-kingslayer btn-style mr-2">Read more</Link> */}
               {/* <a className="btn btn-primary btn-style" href="contact.html"> Get a Quote </a> */}
               <Link to="/buyblc" className="btn btn-white-kingslayer btn-style"> Buy $BLC </Link>
